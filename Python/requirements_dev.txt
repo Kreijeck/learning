@@ -1,0 +1,10 @@
+# Linting/Tooling
+pylint
+flake8
+mypy
+isort
+autopep8
+
+# IPython
+ipython
+ipykernel
