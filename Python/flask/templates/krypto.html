@@ -1,0 +1,60 @@
+{% extends "layout/base.html" %}
+
+{% block content %}
+    <form method="get">
+
+        <input type="radio" name="transaction" value="buy" id="Ankauf" checked>
+        <label class="radio" for="Ankauf">Ankauf</label>
+        <input type="radio" name="transaction" value="sell" id="Verkauf"/>
+        <label class="radio" for="Verkauf">Verkauf</label>
+
+        <label for="betrag">Betrag</label>
+        {% if last_amount != None %}
+            <input type="text" name="betrag" id="betrag" value="{{ last_amount }}" placeholder="Betrag"/>
+        {% else %}
+            <input type="text" name="betrag" id="betrag" value="" placeholder="Betrag"/>
+        {% endif %}
+        <label for="spread">Spread</label>
+        {% if last_spread != None %}
+            <input type="text" name="spread" id="spread" value="{{ last_spread }}"/>
+        {% else %}
+            <input type="text" name="spread" id="spread" value="0.75"/>
+        {% endif %}
+        <br>
+        <input type="submit" value="An- bzw Verkaufspreis berechnen"/>
+    </form>
+
+    <!---------- Tabelle in Rohform ---------->
+    <table class="u-full-width">
+        <thead>
+        <tr>
+            <th> Transaction</th>
+            <th> originaler Preis</th>
+            <th> Spread</th>
+            <th> erhaltener Preis</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        {% for value in values %}
+            {% if value.amount != None and value.spread != None and value.price != None %}
+                <tr>
+                    <td> {{ value.transaction }}</td>
+                    <td> {{ value.amount }}</td>
+                    <td> {{ value.spread }} </td>
+                    <td> {{ value.price }}</td>
+                </tr>
+            {% else %}
+                <tr>
+                <td> 0</td>
+                <td> 0</td>
+                <td> 0</td>
+                <td> 0</td>
+                </tr>
+            {% endif %}
+        {% endfor %}
+        </tbody>
+    </table>
+
+
+{% endblock content %}

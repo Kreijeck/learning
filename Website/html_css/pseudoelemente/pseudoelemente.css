@@ -1,0 +1,17 @@
+#test {
+  height: auto;
+  width: 400px;
+  background-color: grey;
+}
+
+#test::before {
+  content: "Ich bin das Pseudoelement before! ";
+  display: block;
+  background-color: red;
+}
+
+#test::after {
+  content: " Ich bin das Pseudoelement after!";
+  display: block;
+  background-color: blue;
+}

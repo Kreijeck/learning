@@ -1,0 +1,27 @@
+body {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+#p1 {
+  font-family: serif;
+}
+
+#p2 {
+  font-family: sans-serif;
+}
+
+#p3 {
+  font-family: cursive;
+}
+
+#p4 {
+  font-family: fantasy;
+}
+
+#p5 {
+  font-family: monospace;
+}
+
+#p6 {
+  font-family: 'Sedgwick Ave Display', fantasy;
+}

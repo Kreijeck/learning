@@ -1,0 +1,9 @@
+get track records:
+BASE_URL + r'/course_record/?job=1&user_no=2581360&course_id=9&category_id=13&is_category=2
+
+course_id = Id der Strecke
+category_id = wahrscheinlich verschiedene Fahrzeuggruppen
+
+is_category =   0: course_id relevant
+                1: course und category id relevant
+                2: nichts interessant

@@ -1,0 +1,43 @@
+#vordefiniert {
+  width: 300px;
+  height: 300px;
+  background-color: OliveDrab;
+}
+
+#hex {
+  height: 300px;
+  width: 300px;
+  background-color: #FFF;
+}
+
+#rgb {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(33, 77, 99);
+}
+
+#rgba {
+  height: 300px;
+  width: 300px;
+  background-color: rgba(94, 180, 199, 0.2);
+}
+
+.hintergrund {
+  width: 400px;
+  height: 400px;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: rgb(40, 60, 80);
+}
+
+#hsl {
+  width: 300px;
+  height: 300px;
+  background-color: hsl(167, 77%, 15%);
+}
+
+#hsla {
+  height: 300px;
+  width: 300px;
+  background-color: hsla(44, 33%, 53%, 0.1);
+}

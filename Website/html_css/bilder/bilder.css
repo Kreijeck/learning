@@ -1,0 +1,21 @@
+#bild1 {
+  height: auto;
+  width: 600px;
+}
+
+#bild2 {
+  width: 30%;
+  height: auto;
+}
+
+#bild3 {
+  width: 30%;
+  height: auto;
+  min-width: 200px;
+}
+
+#bild4 {
+  width: 30%;
+  height: auto;
+  min-width: 200px;
+}

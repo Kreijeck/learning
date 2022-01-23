@@ -1,0 +1,69 @@
+Season;Track;Race;Andi;Ricci;Baschdi;Dominik;Haiko;Julian;Strähli;Alexander;Roi;Stefan;Ronny;Alex R.;Markus;Sascha;Jochen
+1;Red Bull Ring;1;2;3;1;na;7;na;6;na;8;na;4;5;;;
+1;Lago Maggiore;1;2;1;4;na;5;na;3;na;7;na;6;na;;;
+1;Dragon Trail Küste;1;3;na;1;na;2;na;5;na;na;na;4;na;;;
+1;Nürburgring GP;1;5;1;4;na;2;na;3;na;6;na;7;na;;;
+1;Nordschleife;1;4;1;3;na;2;na;6;na;7;na;5;na;;;
+1;Catalunya;1;2;1;3;na;4;na;6;na;7;na;5;na;;;
+2;Interlagos;1;2;1;4;na;5;;3;;6;;na;;7;8;9
+2;Interlagos;2;3;1;4;na;5;;2;;6;;na;;7;8;9
+2;Suzuka;1;2;1;3;7;4;;8;;6;;na;;5;9;10
+2;Suzuka;2;2;4;3;7;1;;6;;5;;na;;8;9;10
+2;Red Bull Ring;1;1;4;2;9;3;;10;;6;;7;;5;8;na
+2;Red Bull Ring;2;3;1;4;8;2;;10;;6;;5;;7;9;na
+2;Dragon Trail Gärten;1;na;1;3;8;2;;7;;6;;5;;4;9;na
+2;Dragon Trail Gärten;2;na;1;4;6;3;;9;;8;;2;;7;5;na
+2;Dragon Trail Küste;1;3;1;8;6;2;;5;;7;;4;;na;na;na
+2;Dragon Trail Küste;2;4;1;5;3;6;;2;;8;;7;;na;na;na
+2;Catalunya;1;2;1;3;4;6;;5;;na;;na;;7;na;na
+2;Catalunya;2;2;1;5;4;3;;7;;na;;na;;6;na;na
+2;Fuji Speedway;1;1;2;na;4;3;;na;;5;;na;;6;na;na
+2;Fuji Speedway;2;1;2;na;4;3;;na;;5;;na;;6;na;na
+2;Le Mans;1;1;3;4;na;2;;6;;na;;7;;5;na;na
+2;Le Mans;2;1;3;4;na;2;;6;;na;;7;;5;na;na
+3;Nürburgring GP;1;2;1;3;5;8;;4;7;6;;na;;;;
+3;Nürburgring GP;2;3;1;2;5;4;;6;8;7;;na;;;;
+3;Lago Maggiore;1;1;6;3;2;4;;8;7;5;;na;;;;
+3;Lago Maggiore;2;3;1;4;5;2;;6;7;8;;na;;;;
+3;Dragon Trail Küste;1;8;2;1;na;3;;6;4;5;;7;;;;
+3;Dragon Trail Küste;2;1;2;3;na;4;;7;8;6;;5;;;;
+3;Tsukuba;1;1;3;5;na;2;;6;na;4;;na;;;;
+3;Tsukuba;2;3;1;2;na;4;;5;na;6;;na;;;;
+3;Circuit de Sainte-Croix-C;1;1;3;4;2;5;;na;7;6;;na;;;;
+3;Circuit de Sainte-Croix-C;2;2;1;3;4;5;;na;6;7;;na;;;;
+3;Sardegna Road B;1;1;4;2;3;5;7;na;8;6;;na;;;;
+3;Sardegna Road B;2;1;2;5;3;4;na;na;7;6;;na;;;;
+3;Spa Francorchamps;1;1;3;5;2;4;na;na;7;6;;na;;;;
+3;Spa Francorchamps;2;3;2;1;4;5;na;na;7;6;;na;;;;
+4;Catalunya GP;1;1;5;2;3;6;4;7;8;10;9;;;;;
+4;Catalunya GP;2;2;1;6;3;5;4;7;8;10;9;;;;;
+4;Mount Panorama;1;1;6;4;2;3;5;9;7;8;10;;;;;
+4;Mount Panorama;2;1;4;5;2;3;6;9;8;7;10;;;;;
+4;Nürburgring GP;1;2;1;3;5;6;4;7;9;8;na;;;;;
+4;Nürburgring GP;2;1;2;5;3;8;6;7;9;4;na;;;;;
+4;Dragon Trail Küste;1;1;4;2;5;3;7;8;6;10;9;;;;;
+4;Dragon Trail Küste;2;3;1;5;2;4;6;9;8;7;10;;;;;
+4;Sardegna Road Track B;1;5;4;1;3;2;7;6;8;9;10;;;;;
+4;Sardegna Road Track B;2;2;5;1;4;3;6;8;7;9;10;;;;;
+4;Interlagos;1;1;7;2;8;5;3;4;6;9;10;;;;;
+4;Interlagos;2;2;1;4;7;6;5;3;8;9;10;;;;;
+4;Kyoto-Yamagiwa;1;5;1;6;4;2;na;3;8;7;na;;;;;
+4;Kyoto-Yamagiwa;2;1;3;6;4;2;na;7;5;8;na;;;;;
+4;Monza;1;3;2;1;6;5;na;4;na;8;7;;;;;
+4;Monza;2;1;2;3;4;5;6;7;na;9;8;;;;;
+5;Lago Maggiore;1;1;;2;4;3;7;5;;6;8;;;;;
+5;Lago Maggiore;2;1;;2;4;5;7;3;;6;8;;;;;
+5;Tsukuba;1;;;;;;;;;;;;;;;
+5;Tsukuba;2;;;;;;;;;;;;;;;
+5;Suzuka GP;1;;;;;;;;;;;;;;;
+5;Suzuka GP;2;;;;;;;;;;;;;;;
+5;Nürburgring 24h;1;;;;;;;;;;;;;;;
+5;Nürburgring 24h;2;;;;;;;;;;;;;;;
+5;Tokyo South Inner Loop;1;;;;;;;;;;;;;;;
+5;Tokyo South Inner Loop;2;;;;;;;;;;;;;;;
+5;Laguna Seca;1;;;;;;;;;;;;;;;
+5;Laguna Seca;2;;;;;;;;;;;;;;;
+5;Blue Moon A;1;;;;;;;;;;;;;;;
+5;Blue Moon A;2;;;;;;;;;;;;;;;
+5;Le Mans;1;;;;;;;;;;;;;;;
+5;Le Mans;2;;;;;;;;;;;;;;;

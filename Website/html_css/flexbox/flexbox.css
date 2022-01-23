@@ -1,0 +1,158 @@
+/* === GENERELLES === */
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* .border, .border *{
+  border: 1px solid #91c4ff;
+}
+
+[class*='col-'] {
+  background-color: #bfddff;
+}
+
+p {
+  background-color: #91c4ff;
+  padding: 0;
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+
+
+.container {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*='col-'] {
+  float: left;
+  min-height: 1px;
+  padding: .8rem;
+}
+
+.col-1 { width: 16.666%; }
+.col-2 { width: 33.333%; }
+.col-3 { width: 50%;     }
+.col-4 { width: 66.666%; }
+.col-6 { width: 100%;    }
+
+
+@media (max-width: 1024px) {
+
+  .col-1 { width: 33.333%; }
+
+}
+
+@media (max-width: 768px) {
+
+  .col-1 { width: 50%;  }
+  .col-2 { width: 100%; }
+  .col-3 { width: 100%; }
+  .col-4 { width: 100%; }
+
+}
+
+@media (max-width: 480px) {
+
+  .col-1 { width: 100%; }
+  .col-2 { width: 100%; }
+  .col-3 { width: 100%; }
+  .col-4 { width: 100%; }
+
+} */
+
+p {
+  margin: 0;
+}
+
+.flex-container > * {
+  /* margin: .8rem; */
+  background-color: #91c4ff;
+  /* width: 200px; */
+}
+
+/* === Flex-Box === */
+
+.flex-container {
+  display: flex;
+  width: 95%;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #bfddff;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap-reverse; */
+  /* flex-flow: row-reverse wrap; */
+  /* justify-content: space-around; */
+  /* align-items: baseline; */
+  /* flex-wrap: wrap; */
+  /* align-content: space-around; */
+}
+
+#test01 {
+  /* flex-grow: 2;
+  flex-shrink: 4;
+  flex-basis: 15%; */
+  /* flex: 2 4 15%; */
+  /* order: 3; */
+  align-self: auto;
+}
+
+#test02 {
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 10%; */
+  /* flex: 1 1 10%; */
+  /* order: 1; */
+  align-self: stretch;
+}
+
+#test03 {
+  /* flex-grow: 4;
+  flex-shrink: 10;
+  flex-basis: 5%; */
+  /* flex: 4 10 5%; */
+  /* order: 5; */
+  align-self: center;
+}
+
+#test04 {
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 20%; */
+  /* flex: 1 1 20%; */
+  /* order: 4; */
+  align-self: flex-start;
+}
+
+#test05 {
+  /* flex-grow: 6;
+  flex-shrink: 20;
+  flex-basis: 25%; */
+  /* flex: 6 20 25%; */
+  /* order: 6; */
+  align-self: flex-end;
+}
+
+#test06 {
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 25%; */
+  /* flex: 1 1 25%; */
+  /* order: 2; */
+  align-self: baseline;
+}

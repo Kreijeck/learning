@@ -1,0 +1,97 @@
+:root {
+  font-size: 25px;
+}
+
+p:empty {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.container :first-child {
+  font-weight: bold;
+}
+
+.container :last-child {
+  text-decoration: underline;
+}
+
+.container :nth-child(5) {
+  color: red;
+}
+
+.container :nth-child(even) {
+  background-color: grey;
+}
+
+.container :nth-child(odd) {
+  background-color: blue;
+}
+
+.container :nth-child(2n+1) {
+  text-decoration: line-through;
+}
+
+.container :nth-last-child(5) {
+  color: red;
+}
+
+.container :nth-last-child(even) {
+  width: 200px;
+}
+
+.container :nth-last-child(odd) {
+  width: 400px;
+}
+
+.container :nth-last-child(3n+1) {
+  width: 600px;
+}
+
+body :only-child {
+  border: 5px solid red;
+}
+
+.container div:first-of-type {
+  color: yellow;
+}
+
+.container p:last-of-type {
+  color: red;
+}
+
+.container div:nth-of-type(3) {
+  height: 50px;
+}
+
+.container div:nth-of-type(even) {
+  height: 100px;
+}
+
+.container div:nth-of-type(odd) {
+  height: 200px;
+}
+
+.container div:nth-of-type(3n+1) {
+  height: 400px;
+}
+
+.container div:nth-last-of-type(3) {
+  text-align: right;
+}
+
+.container div:nth-last-of-type(even) {
+  border: 2px solid black;
+}
+
+.container div:nth-last-of-type(odd) {
+  border: 4px solid green;
+}
+
+.container div:nth-last-of-type(3n+1) {
+  text-align: center;
+}
+
+body :only-of-type {
+  background-color: purple;
+}

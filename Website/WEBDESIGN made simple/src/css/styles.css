@@ -1,0 +1,340 @@
+/* === FARBEN */
+/*
+Blau:         #1F4E8C
+Dunkel Grau:  #3D3F45
+Hell Grau:    #E5E5E5
+Rot:          #A62C21
+*/
+
+/* === GLOBAL === */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway', 'Lato', 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* === GENERELLES === */
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.active {
+  background-color: #A62C21 !important;
+}
+
+.wichtiger-text {
+    font-weight: bold;
+}
+
+.screenreader {
+  display: none;
+}
+
+.btn-typ-1 {
+  background-color: #A62C21;
+  border: 2px solid #A62C21;
+  color: #FFF;
+  padding: .4rem .6rem;
+}
+
+/* === Navigationsleiste === */
+#header-nav {
+  width: 100%;
+  height: 50px;
+  background-color: #3D3F45;
+  position: relative;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Nachfahre */
+#header-nav a>img {
+  height: 30px;
+  width: auto;
+  margin: .55rem;
+  float: left;
+}
+
+#header-nav ul {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+#header-nav ul>li {
+  display: inline-block;
+  height: 100%;
+  padding: .8rem .4rem 0 .4rem;
+}
+
+#header-nav ul>li>a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#header-nav ul>li>a:hover {
+  color: #E5E5E5;
+  text-decoration: none;
+}
+
+#header-nav ul>li>a:active {
+  color: #E5E5E5;
+  text-decoration: none;
+}
+
+#header-nav ul>li>a:visited {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#header-nav .col-6 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#header-nav .container,
+#header-nav .row,
+#header-nav .col-6 {
+  height: 100%;
+}
+
+/* == Navigationsleiste (MOBIL) === */
+#mobile-nav-button {
+  color: #FFF;
+  float: right;
+  font-size: 2rem;
+  border: 2px solid #FFF;
+  width: 37px;
+  height: 37px;
+  position: relative;
+  margin-top: .4rem;
+  margin-bottom: .4rem;
+}
+
+#mobile-nav-button>span {
+  position: absolute;
+  bottom: -2px;
+  left: 6px;
+}
+
+#mobile-nav-content>ul>li {
+  display: block;
+  background-color: #3D3F45;
+  height: 50px;
+  padding: 0 1.2rem;
+  text-align: center;
+}
+
+#mobile-nav-dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+#mobile-nav-content {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  display: none;
+}
+
+#mobile-nav-dropdown:hover>#mobile-nav-content {
+  display: block;
+}
+
+#mobile-nav {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #desktop-nav {
+    display: none;
+  }
+
+  #mobile-nav {
+    display: block;
+  }
+}
+
+/* === HEADER-BANNER === */
+#header-banner {
+  width: 100%;
+  /*padding-top in % bezieht sich auf die Breite :
+  img ist 1920 x 400 groß: 400 / 1920 * 100 = 20.83%
+  */
+  padding-top: 20.83%;
+  background: url("../img/hintergrund.jpg") no-repeat center center;
+  /*background-size: Bild nimmt komplette Flaeche ein*/
+  background-size: contain;
+}
+
+#header-banner-klein {
+  width: 100%;
+  /*padding-top in % bezieht sich auf die Breite :
+  img ist 1920 x 300 groß, 400 / 1920 * 100 = 15.625%
+  */
+  padding-top: 15.625%;
+  background: url("../img/hintergrund-klein.jpg") no-repeat center center;
+  /*background-size: Bild nimmt komplette Flaeche ein*/
+  background-size: contain;
+}
+
+/* === NEWSLETTER-BEREICH === */
+
+#newsletter-bereich {
+  width: 100%;
+  background-color: #3D3F45;
+}
+
+#nb-werbetext {
+  color: #FFF;
+  font-size: 1.2rem;
+}
+
+#nb-email-input {
+  width: 78%;
+  height: 35px;
+  border: 2px solid #FFF;
+  padding: .4rem .4rem;
+}
+
+#nb-form {
+  margin-top: .7rem;
+  width: 100%;
+  float: right;
+  text-align: right;
+}
+
+#nb-btn {
+  height: 35px;
+}
+
+@media (max-width: 1822px) {
+  #nb-email-input {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1358px) {
+  #nb-email-input {
+    width: 100%;
+    margin-bottom: .5rem;
+  }
+  #nb-btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  #nb-werbetext {
+    display: none;
+  }
+
+  #nb-form {
+    margin-top: 0;
+  }
+
+
+  #newsletter-bereich .col-4 {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+
+  #nb-email-input {
+    height: 25px;
+  }
+
+  #nb-btn {
+    height: 25px;
+    padding: 1rem;
+
+  }
+}
+
+/* === GRID-SYSTEM === */
+.container {
+  width: 95%;
+  /* zum Zentrieren */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row::after {
+  /*clearfix Hack */
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  min-height: 1px;
+  padding: .8rem;
+}
+
+.col-1 { width: 16.667%; }
+.col-2 { width: 33.333%; }
+.col-3 { width: 50%; }
+.col-4 { width: 66.666%; }
+.col-6 { width: 100%; }
+
+/* === WICHTIGE BREAKPOINTS ===
+320   Pixel (iPhone Hochformat) -> zu klein
+480   Pixel (iPhone Querformat)
+768   Pixel (iPad Hochformat)
+1024  Pixel (iPad Querformat)
+1200  Pixel (Laptop)            -> groß genug
+>1200 Pixel (große Endgeräte)   -> groß genug
+*/
+
+@media (max-width: 1024px) {
+  .col-1 { width: 33.333%; }
+}
+
+@media (max-width: 768px) {
+  .col-1 { width: 50%; }
+  .col-2 { width: 100%; }
+  .col-3 { width: 100%; }
+  .col-4 { width: 100%; }
+}
+
+@media (max-width: 480px) {
+  .col-1 { width: 100%; }
+  .col-2 { width: 100%; }
+  .col-3 { width: 100%; }
+  .col-4 { width: 100%; }
+}
+
+
+/* == GRID-SYSTEM Sichtbarkeit === */
+/* .border, .border * {
+  border: 1px solid #91C4FF;
+}
+[class*='col-'] {
+  background-color: lightgrey;
+}
+
+p {
+  background-color: #91C4FF;
+  padding: 0;
+  margin: 0;
+  color: #FFF;
+  text-align: center;
+}
+
+*/

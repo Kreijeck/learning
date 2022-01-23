@@ -1,0 +1,24 @@
+.test1 {
+  display: block;
+  background-color: #F00;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.test2 {
+  width: 300px;
+  height: 300px;
+  background-color: #0F0;
+  margin-bottom: 20px;
+  display: inline;
+}
+
+.test3 {
+  width: 300px;
+  height: 300px;
+  background-color: #000;
+  margin-bottom: 20px;
+  color: #FFF;
+  display: inline-block;
+}

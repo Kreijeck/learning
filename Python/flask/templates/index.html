@@ -1,0 +1,27 @@
+{% extends "layout/base.html" %}
+
+{% block content %}
+    <h1> Hier ist die Startseite</h1>
+    <h1> {{ name }}</h1>
+
+    <h4> Items List</h4>
+
+    {% for item in items_list %}
+        <p> {{ item }}</p>
+    {% endfor %}
+
+    <h4> Items Dict</h4>
+
+    {% for item in items_dict %}
+        <p> {{ item.name }} wurde {{ item.amount }} gewählt</p>
+    {% endfor %}
+
+    <h4> Items Class</h4>
+    {% for item in items_class %}
+        <p> {{ item.name }} wurde {{ item.amount }} gewählt</p>
+    {% endfor %}
+
+    <h4> Items Tuple</h4>
+        <p> Vorname: {{ items_tuple[0] }}, Nachname: {{ items_tuple[1] }}/p>
+
+{% endblock %}

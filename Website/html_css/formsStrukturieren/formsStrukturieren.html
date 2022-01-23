@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Forms strukturieren</title>
+    <style>
+
+    fieldset {
+      display: inline-block;
+      /* border: none; */
+    }
+
+    label {
+      /* display: none; */
+    }
+
+    </style>
+	</head>
+
+	<body>
+
+    <form action="../forms/forms.html" method="get">
+
+      <fieldset>
+
+        <legend>Personen-Daten:</legend>
+
+        <label for="name">Name:</label>
+        <input id="name" type="text" name="name" placeholder="Dein Name"><br><br>
+
+        <fieldset>
+          <legend>Geschlecht:</legend>
+          <label for="männlich">Männlich</label>
+          <input id="männlich" type="radio" name="geschlecht" value="m">
+					<label for="weiblich">Weiblich</label>
+          <input id="weiblich" type="radio" name="geschlecht" value="w">
+					<br><br>
+        </fieldset>
+
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+
+        <legend>Login-Daten:</legend>
+
+        <label for="email">E-Mail:</label>
+        <input id="email" type="email" name="email" placeholder="Deine E-Mail Adresse"><br><br>
+        <label for="passwort">Passwort:</label>
+        <input id="passwort" type="password" name="passwort" placeholder="Dein Passwort"><br><br>
+
+      </fieldset>
+
+      <br><br>
+
+      <button type="submit">Abschicken!</button>
+
+    </form>
+
+	</body>
+
+</html>

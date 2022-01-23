@@ -1,0 +1,26 @@
+.container {
+  background-color: grey;
+}
+
+.blue_box {
+  background-color: blue;
+  width: 100px;
+  height: 200px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  float: right;
+}
+
+p {
+  background-color: red;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}

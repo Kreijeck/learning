@@ -1,0 +1,26 @@
+/* === Farben Auswahl ===
+Blau:         #1F4E8C
+Dunkel Grau:  #3D3F45
+Hell Grau:    #F0F0F0
+Rot:          #A62C21
+*/
+
+.visu {
+  width: 300px;
+  height: 200px;
+  background-color: grey;
+  border: 1px solid black;
+}
+.nav_banner {
+  height: 300px;
+  width: auto;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav_banner img {
+  height: inherit;
+  width: inherit;
+
+}
