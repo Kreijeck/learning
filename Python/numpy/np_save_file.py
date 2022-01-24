@@ -1,6 +1,6 @@
-from copyreg import pickle
-import numpy as np
 import os
+
+import numpy as np
 
 A = np.random.randint(1, 42, size=(200, 200))
 file = os.path.join(os.path.dirname(__file__), "A.txt")
