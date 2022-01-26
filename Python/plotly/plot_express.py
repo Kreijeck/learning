@@ -1,9 +1,10 @@
-from itertools import count
 import plotly.express as px
 import numpy as np
+from itertools import count
+
+
 df = px.data.iris()
-
-
+# for trendline needs statsmodels module in addition to plotly
 fig1 = px.scatter(df, x="sepal_width", y="sepal_length", color="species",
                   marginal_x="box", marginal_y="violin", trendline="ols")
 
@@ -115,4 +116,4 @@ for t in ['plotly', 'plotly_white', 'plotly_dark', 'ggplot2', 'seaborn', 'simple
     fig12.show()
 
 # fig7.write_html("country_lifeExp.html")
-fig12.show()
+fig6.show()
