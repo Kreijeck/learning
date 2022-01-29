@@ -28,3 +28,17 @@ print(df) # in df: Spalte B wurde entfernt
 df2 = df.assign(name=lambda x: (x["A"] + x["C"]))
 print()
 print(df2)
+
+# Example for assign
+# ======================================================
+df = pd.DataFrame(np.random.randint(10, size=(100, 3)))
+
+
+def add(df, k):
+    return 2*df[0] + k
+
+
+print(df)
+df = df.assign(addit=add(df, 2))
+print(df)
+# ======================================================
