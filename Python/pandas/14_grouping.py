@@ -29,10 +29,10 @@ print("===\n")
 # gibt Index der Gruppen aus
 print(group_df.groups)
 
-for name, group in group_df:
+for name, gruppe in group_df:
     print(f"Der Name ist: {name}")
     print("Und hier kommt die Gruppe:")
-    print(group)
+    print(gruppe)
 
 
 print("spezielle Gruppe auslesen")
