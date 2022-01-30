@@ -31,7 +31,7 @@ print(group_df.groups)
 
 for name, group in group_df:
     print(f"Der Name ist: {name}")
-    print(f"Und hier kommt die Gruppe:")
+    print("Und hier kommt die Gruppe:")
     print(group)
 
 

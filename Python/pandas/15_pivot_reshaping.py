@@ -17,3 +17,26 @@ print(df.pivot(
     columns='group2',
     values='C'
 ))
+
+
+#### Stack ###
+idxs = list(
+    zip(
+        *[
+            ["A", "A", "B", "B", "C", "C", "D", "D"],
+            ["1", "2", "1", "2", "1", "2", "1", "2"],
+        ]
+    )
+)
+print(idxs)
+index = pd.MultiIndex.from_tuples(idxs)
+print(index)
+df = pd.DataFrame(np.random.randn(8, 2), index=index, columns=["X", "Y"])
+print(df)
+# Führt nochmals Index hinzu um einen Index aus der Spalte in eine Zeile zu schieben
+# Eventuell ergibt es eine Series -> falls nur noch eine Spalte
+print(df.stack())
+print(type(df.stack()))
+
+# Unstacken
+print(df.unstack())
