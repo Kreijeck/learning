@@ -1,0 +1,8 @@
+"Index","Payload"
+"1","[pose/datapackages] ArCore::AccelerometerDataPackage: {accelerationXAxis 0.105, accelerationYAxis -0.507, accelerationZAxis 9.801, temperature 54, timestamp 1046370}"
+"2","[pose/datapackages] ArCore::AccelerometerDataPackage: {accelerationXAxis 0.1105, accelerationYAxis -0.5067, accelerationZAxis 9.801, temperature 55, timestamp 1046370}"
+"3","[pose/datapackages] ArCore::AccelerometerDataPackage: {accelerationXAxis 0.1205, accelerationYAxis -0.5507, accelerationZAxis 9.801, temperature 51, timestamp 1046370}"
+"4","[pose/datapackages] ArCore::AccelerometerDataPackage: {accelerationXAxis 0.1305, accelerationYAxis -0.5407, accelerationZAxis 9.801, temperature 50, timestamp 1046370}"
+"5","[pose/datapackages] ArCore::AccelerometerDataPackage: {accelerationXAxis 0.1405, accelerationYAxis -0.5017, accelerationZAxis 9.801, temperature 43, timestamp 1046370}"
+"6","[pose/datapackages] ArCore::AccelerometerDataPackage: {accelerationXAxis 0.1055, accelerationYAxis -0.5017, accelerationZAxis 9.801, temperature 41, timestamp 1046370}"
+"7","[pose/datapackages] ArCore::AccelerometerDataPackage: {accelerationXAxis 0.1065, accelerationYAxis -0.5207, accelerationZAxis 9.801, temperature 12, timestamp 1046370}"
