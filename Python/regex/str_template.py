@@ -48,7 +48,7 @@ class FStringParser:
         return value_dict
 
     def get_value_dict_of_df(self, df: pd.Series) -> list:
-        
+        # df.str.extract : gives back all groups!
         datamodel = df.str.extract(self.regex).set_axis(self.keys, axis=1).dropna().reset_index(drop=True)
         # for output in df:
         #     value_dict = self.get_value_dict(output)
