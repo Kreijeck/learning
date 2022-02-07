@@ -49,7 +49,7 @@ class FStringParser:
 
     def get_value_dict_of_df(self, df: pd.Series) -> list:
         
-        datamodel = df.str.extract(self.regex).set_axis(self.keys, axis=1)
+        datamodel = df.str.extract(self.regex).set_axis(self.keys, axis=1).dropna().reset_index(drop=True)
         # for output in df:
         #     value_dict = self.get_value_dict(output)
         #     # value_dict = {}
@@ -78,7 +78,7 @@ if __name__ == '__main__':
     print(df)
     # val_dict = st.get_value_dict_of_df(df["Payload"])
     # df_pose = pd.DataFrame(val_dict).dropna().reset_index(drop=True)
-    df_pose = st.get_value_dict_of_df(df["Payload"]).dropna().reset_index(drop=True)
+    df_pose = st.get_value_dict_of_df(df["Payload"])
     stop = time.time()
     print(df_pose)
     print(f"Needed Time: {round(stop-start, 2)}s")
