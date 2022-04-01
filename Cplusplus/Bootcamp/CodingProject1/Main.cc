@@ -19,6 +19,8 @@ void game()
         char move;
         bool finished = false;
 
+        system("clear");
+
         while (!finished)
         {
             for (unsigned int i = 0; i < LEN_X; i++)
