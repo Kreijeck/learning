@@ -5,8 +5,7 @@
 #define LEFT 'a'
 #define RIGHT 'd'
 
-
-int main()
+void game()
 {
     bool repeat = true;
 
@@ -83,6 +82,11 @@ int main()
 
         system("clear");
     }
+}
+
+int main()
+{
+    game();
 
     return 0;
 }
