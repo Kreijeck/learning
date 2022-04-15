@@ -1,6 +1,12 @@
 #include "exercise.h"
 #include <iostream>
 
+struct Dataset
+{
+    int mean_array_a;
+    double mean_array_b;
+};
+
 int main()
 {
     // Exercise 1
@@ -14,7 +20,7 @@ int main()
     std::cout << "Mean Array A: " << mean_array_a << std::endl;
     std::cout << "Mean Array B: " << mean_array_b << std::endl;
 
-    // Exercise 2
+    //Exercise 2
     computation::Dataset data{mean_array_a, mean_array_b};
     std::cout << data.mean_array_a << std::endl;
     std::cout << data.mean_array_b << std::endl;
