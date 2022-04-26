@@ -73,8 +73,8 @@ if __name__ == '__main__':
     # print(mydict)
 
     start = time.time()
-    df = pd.read_csv("regex/testdata.csv")
-    df = pd.read_csv(r"D:\Projects\dlt_v2_protics\test_files\test.csv")
+    df = pd.read_csv("Python/regex/testdata.csv")
+    #df = pd.read_csv(r"D:\Projects\dlt_v2_protics\test_files\test.csv")
     print(df)
     # val_dict = st.get_value_dict_of_df(df["Payload"])
     # df_pose = pd.DataFrame(val_dict).dropna().reset_index(drop=True)
